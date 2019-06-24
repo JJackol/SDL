@@ -1,0 +1,436 @@
+# depslib dependency file v1.0
+1561305221 source:/home/jaca/infa/cpp/codeBlocks/sdl/main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL.h>
+	"src/InitError.h"
+	"src/MainProgram.h"
+
+1541092209 /usr/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1541092209 /usr/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/begin_code.h
+
+1541092209 /usr/include/SDL2/close_code.h
+
+1541092209 /usr/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1541092209 /usr/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1541092209 /usr/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1541092209 /usr/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541092209 /usr/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561156757 /home/jaca/infa/cpp/codeBlocks/sdl/src/InitError.h
+	<exception>
+	<string>
+
+1561156777 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/InitError.cpp
+	"InitError.h"
+	<SDL.h>
+
+1561157047 source:/home/jaca/infa/cpp/codeBlocks/sdl/MainProgram.cpp
+	"MainProgram.h"
+	"src/InitError.h"
+
+1561157032 /home/jaca/infa/cpp/codeBlocks/sdl/MainProgram.h
+	<SDL.h>
+
+1561373197 /home/jaca/infa/cpp/codeBlocks/sdl/src/MainProgram.h
+	<SDL.h>
+	<queue>
+	"src/InputControl.h"
+	"src/GameLogic.h"
+	"src/Display.h"
+
+1561373408 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/MainProgram.cpp
+	"MainProgram.h"
+	"src/InitError.h"
+	<iostream>
+
+1561156757 /home/jaca/infa/cpp/codeBlocks/sdl//src/InitError.h
+	<exception>
+	<string>
+
+1561305081 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Map.cpp
+	"Map.h"
+
+1561305058 /home/jaca/infa/cpp/codeBlocks/sdl/src/Map.h
+	<SDL.h>
+
+1561305407 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Game_Object.cpp
+	"Game_Object.h"
+
+1561305454 /home/jaca/infa/cpp/codeBlocks/sdl/src/Game_Object.h
+
+1561305500 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Player.cpp
+	"Player.h"
+
+1561305500 /home/jaca/infa/cpp/codeBlocks/sdl/src/Player.h
+	<Game_Object.h>
+
+1561373449 /home/jaca/infa/cpp/codeBlocks/sdl//src/InputControl.h
+	<queue>
+	<SDL.h>
+	"src/LogicInputState.h"
+
+1561328027 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/InputControl.cpp
+	"InputControl.h"
+
+1561372437 /home/jaca/infa/cpp/codeBlocks/sdl/src/InputControl.h
+	<queue>
+	<SDL.h>
+	"src/LogicInputState.h"
+
+1561372293 /home/jaca/infa/cpp/codeBlocks/sdl//src/GameLogic.h
+	"src/LogicInputState.h"
+
+1561329021 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/GameLogic.cpp
+	"GameLogic.h"
+
+1561372293 /home/jaca/infa/cpp/codeBlocks/sdl/src/GameLogic.h
+	"src/LogicInputState.h"
+
+1561329417 /home/jaca/infa/cpp/codeBlocks/sdl//src/Display.h
+
+1561329302 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Display.cpp
+	"Display.h"
+
+1561329417 /home/jaca/infa/cpp/codeBlocks/sdl/src/Display.h
+
+1561371186 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/LogicInputState.cpp
+	"LogicInputState.h"
+
+1561373122 /home/jaca/infa/cpp/codeBlocks/sdl/src/LogicInputState.h
+
+1561373122 /home/jaca/infa/cpp/codeBlocks/sdl//src/LogicInputState.h
+
