@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1561305221 source:/home/jaca/infa/cpp/codeBlocks/sdl/main.cpp
+1561385147 source:/home/jaca/infa/cpp/codeBlocks/sdl/main.cpp
 	<exception>
 	<string>
 	<iostream>
@@ -350,11 +350,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1561156757 /home/jaca/infa/cpp/codeBlocks/sdl/src/InitError.h
+1561375747 /home/jaca/infa/cpp/codeBlocks/sdl/src/InitError.h
 	<exception>
 	<string>
 
-1561156777 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/InitError.cpp
+1561375747 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/InitError.cpp
 	"InitError.h"
 	<SDL.h>
 
@@ -365,72 +365,155 @@
 1561157032 /home/jaca/infa/cpp/codeBlocks/sdl/MainProgram.h
 	<SDL.h>
 
-1561373197 /home/jaca/infa/cpp/codeBlocks/sdl/src/MainProgram.h
+1561390542 /home/jaca/infa/cpp/codeBlocks/sdl/src/MainProgram.h
 	<SDL.h>
 	<queue>
 	"src/InputControl.h"
 	"src/GameLogic.h"
 	"src/Display.h"
+	"src/GameTimer.h"
 
-1561373408 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/MainProgram.cpp
+1561390542 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/MainProgram.cpp
 	"MainProgram.h"
 	"src/InitError.h"
 	<iostream>
 
-1561156757 /home/jaca/infa/cpp/codeBlocks/sdl//src/InitError.h
+1561375747 /home/jaca/infa/cpp/codeBlocks/sdl//src/InitError.h
 	<exception>
 	<string>
 
-1561305081 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Map.cpp
+1561375747 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Map.cpp
 	"Map.h"
 
-1561305058 /home/jaca/infa/cpp/codeBlocks/sdl/src/Map.h
+1561375747 /home/jaca/infa/cpp/codeBlocks/sdl/src/Map.h
 	<SDL.h>
 
-1561305407 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Game_Object.cpp
+1561375747 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Game_Object.cpp
 	"Game_Object.h"
 
-1561305454 /home/jaca/infa/cpp/codeBlocks/sdl/src/Game_Object.h
+1561380568 /home/jaca/infa/cpp/codeBlocks/sdl/src/Game_Object.h
+	"UtilityLib.h"
 
-1561305500 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Player.cpp
+1561375747 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Player.cpp
 	"Player.h"
 
-1561305500 /home/jaca/infa/cpp/codeBlocks/sdl/src/Player.h
+1561380116 /home/jaca/infa/cpp/codeBlocks/sdl/src/Player.h
 	<Game_Object.h>
+	<LogicInputState.h>
 
-1561373449 /home/jaca/infa/cpp/codeBlocks/sdl//src/InputControl.h
+1561375747 /home/jaca/infa/cpp/codeBlocks/sdl//src/InputControl.h
 	<queue>
 	<SDL.h>
 	"src/LogicInputState.h"
 
-1561328027 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/InputControl.cpp
+1561375747 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/InputControl.cpp
 	"InputControl.h"
 
-1561372437 /home/jaca/infa/cpp/codeBlocks/sdl/src/InputControl.h
+1561375747 /home/jaca/infa/cpp/codeBlocks/sdl/src/InputControl.h
 	<queue>
 	<SDL.h>
 	"src/LogicInputState.h"
 
-1561372293 /home/jaca/infa/cpp/codeBlocks/sdl//src/GameLogic.h
+1561386835 /home/jaca/infa/cpp/codeBlocks/sdl//src/GameLogic.h
 	"src/LogicInputState.h"
+	"src/GameState.h"
+	"src/Game_Object.h"
+	"src/Player.h"
+	<list>
+	<chrono>
+	"UtilityLib.h"
+	"src/Map.h"
 
-1561329021 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/GameLogic.cpp
+1561380181 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/GameLogic.cpp
 	"GameLogic.h"
 
-1561372293 /home/jaca/infa/cpp/codeBlocks/sdl/src/GameLogic.h
+1561386835 /home/jaca/infa/cpp/codeBlocks/sdl/src/GameLogic.h
 	"src/LogicInputState.h"
+	"src/GameState.h"
+	"src/Game_Object.h"
+	"src/Player.h"
+	<list>
+	<chrono>
+	"UtilityLib.h"
+	"src/Map.h"
 
-1561329417 /home/jaca/infa/cpp/codeBlocks/sdl//src/Display.h
+1561391325 /home/jaca/infa/cpp/codeBlocks/sdl//src/Display.h
+	"src/GameState.h"
+	"src/GameLogic.h"
+	<SDL.h>
 
-1561329302 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Display.cpp
+1561389461 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/Display.cpp
 	"Display.h"
 
-1561329417 /home/jaca/infa/cpp/codeBlocks/sdl/src/Display.h
+1561388990 /home/jaca/infa/cpp/codeBlocks/sdl/src/Display.h
+	"src/GameState.h"
+	"src/GameLogic.h"
+	<SDL.h>
 
-1561371186 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/LogicInputState.cpp
+1561376656 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/LogicInputState.cpp
 	"LogicInputState.h"
 
-1561373122 /home/jaca/infa/cpp/codeBlocks/sdl/src/LogicInputState.h
+1561380568 /home/jaca/infa/cpp/codeBlocks/sdl/src/LogicInputState.h
+	"UtilityLib.h"
 
-1561373122 /home/jaca/infa/cpp/codeBlocks/sdl//src/LogicInputState.h
+1561380568 /home/jaca/infa/cpp/codeBlocks/sdl//src/LogicInputState.h
+	"UtilityLib.h"
+
+1561376410 source:/home/jaca/infa/cpp/codeBlocks/sdl/copyOperator.cpp
+	"copyOperator.h"
+
+1561376410 /home/jaca/infa/cpp/codeBlocks/sdl/copyOperator.h
+
+1561380615 /home/jaca/infa/cpp/codeBlocks/sdl//src/GameState.h
+	<complex>
+	<vector>
+	"UtilityLib.h"
+
+1561379006 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/GameState.cpp
+	"GameState.h"
+
+1561380615 /home/jaca/infa/cpp/codeBlocks/sdl/src/GameState.h
+	<complex>
+	<vector>
+	"UtilityLib.h"
+
+1561380568 /home/jaca/infa/cpp/codeBlocks/sdl//src/Game_Object.h
+	"UtilityLib.h"
+
+1561380116 /home/jaca/infa/cpp/codeBlocks/sdl//src/Player.h
+	<Game_Object.h>
+	<LogicInputState.h>
+
+1561386708 /home/jaca/infa/cpp/codeBlocks/sdl//src/UtilityLib.h
+	"UtilityLib.h"
+	<complex>
+
+1561386708 /home/jaca/infa/cpp/codeBlocks/sdl/src/UtilityLib.h
+	"UtilityLib.h"
+	<complex>
+
+1561380507 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/UtilityLib.cpp
+	"UtilityLib.h"
+
+1561375747 /home/jaca/infa/cpp/codeBlocks/sdl//src/Map.h
+	<SDL.h>
+
+1561388340 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/GameTimer.cpp
+	"GameTimer.h"
+	<SDL_timer.h>
+	<SDL_events.h>
+	"src/UtilityLib.h"
+
+1561388527 /home/jaca/infa/cpp/codeBlocks/sdl/src/GameTimer.h
+	<SDL_timer.h>
+
+1561388527 /home/jaca/infa/cpp/codeBlocks/sdl//src/GameTimer.h
+	<SDL_timer.h>
+
+1561391086 source:/home/jaca/infa/cpp/codeBlocks/sdl/src/ResourcesLoader.cpp
+	"ResourcesLoader.h"
+
+1561391045 /home/jaca/infa/cpp/codeBlocks/sdl/src/ResourcesLoader.h
+	<SDL.h>
+	<string>
 
